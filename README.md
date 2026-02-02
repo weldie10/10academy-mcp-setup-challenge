@@ -9,9 +9,17 @@ This repository contains the setup and configuration for the 10 Academy MCP (Mod
 ├── .cursor/
 │   ├── mcp.json              # MCP server configuration
 │   └── rules/
-│       └── agent.mdc         # AI agent rules and best practices
+│       ├── agent.mdc         # Final AI agent rules (v3)
+│       ├── agent.mdc.v1      # Initial rules iteration
+│       └── agent.mdc.v2      # Enhanced rules iteration
 ├── README.md                 # This file
-└── DOCUMENTATION.md          # Detailed documentation of the setup process
+├── DOCUMENTATION.md          # Detailed documentation of the setup process
+├── RESEARCH_NOTES.md         # Research findings and sources
+├── EXPERIMENT_LOG.md         # Rules iteration tracking
+├── MCP_CONNECTION_LOG.md     # Connection attempts and troubleshooting
+├── MCP_EVIDENCE.md          # Evidence capture for tool calls
+├── COMMIT_HISTORY.md        # Git commit history showing iterations
+└── SETUP_SUMMARY.md         # Quick reference summary
 ```
 
 ## Quick Start
