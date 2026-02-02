@@ -1,0 +1,38 @@
+# Agent Rules - Initial Version (v1)
+
+## Core Principles
+
+### 1. Clarity
+- Provide clear instructions
+- Include context
+- Be specific
+
+### 2. Code Quality
+- Write clean code
+- Follow best practices
+- Add comments
+
+### 3. Problem Solving
+- Anticipate issues
+- Suggest improvements
+- Consider security
+
+### 4. Communication
+- Be concise
+- Explain reasoning
+- Ask questions when needed
+
+### 5. File Management
+- Read existing files
+- Maintain consistency
+- Update related files
+
+## Workflow
+- Incremental development
+- Version control
+- Code review
+
+## Technology
+- Use modern libraries
+- Prefer standard solutions
+- Keep dependencies updated
