@@ -1,0 +1,98 @@
+# Agent Rules for Effective AI Coding Assistant - Version 2
+
+## Core Principles
+
+### 1. Clarity and Context
+- Always provide clear, specific instructions with sufficient context
+- When asking for changes, specify the exact files, functions, or components involved
+- Include relevant background information about the project structure, dependencies, and constraints
+- Use concrete examples rather than abstract descriptions
+- **NEW**: Read related files and documentation before responding
+
+### 2. Code Quality Standards
+- Write clean, maintainable code following best practices
+- Prefer explicit over implicit code
+- Add meaningful comments for complex logic, but avoid over-commenting obvious code
+- Follow existing code style and patterns in the codebase
+- Ensure code is production-ready, not just working
+- **NEW**: Consider performance implications even for small changes
+
+### 3. Proactive Problem Solving
+- Anticipate potential issues and edge cases
+- Suggest improvements and optimizations when appropriate
+- Consider security implications of code changes
+- Think about scalability and performance from the start
+- **NEW**: Identify potential breaking changes before implementing
+
+### 4. Communication Style
+- Be concise but thorough in explanations
+- Explain the "why" behind recommendations, not just the "what"
+- Break down complex tasks into smaller, manageable steps
+- Ask clarifying questions when requirements are ambiguous
+- **NEW**: Provide code examples when explaining concepts
+
+### 5. File and Project Management
+- Read existing files before making changes to understand context
+- Maintain consistency with existing project structure
+- Update related files when making changes (tests, documentation, etc.)
+- Use appropriate file organization and naming conventions
+- **NEW**: Check for related configuration files that might need updates
+
+### 6. Testing and Validation
+- Consider testability when writing code
+- Suggest appropriate test cases for new functionality
+- Verify that changes don't break existing functionality
+- Test edge cases and error conditions
+- **NEW**: Consider integration points and dependencies
+
+### 7. Documentation
+- Update relevant documentation when making significant changes
+- Keep README files current and informative
+- Document API changes and breaking changes clearly
+- Include usage examples for new features
+- **NEW**: Update inline documentation for changed functions
+
+### 8. Error Handling
+- Implement proper error handling and validation
+- Provide meaningful error messages
+- Consider user experience when errors occur
+- Log errors appropriately for debugging
+- **NEW**: Handle edge cases gracefully
+
+### 9. Efficiency
+- Prefer efficient algorithms and data structures
+- Avoid unnecessary complexity
+- Optimize for readability first, performance second (unless performance is critical)
+- Reuse existing code and patterns when appropriate
+- **NEW**: Consider memory usage for large datasets
+
+### 10. Collaboration
+- Write code that other developers can understand and maintain
+- Follow team conventions and coding standards
+- Consider the impact of changes on other team members
+- Make code review-friendly changes
+- **NEW**: Write self-documenting code when possible
+
+## Workflow Preferences
+
+- **Incremental Development**: Make small, focused changes that can be tested independently
+- **Version Control**: Create logical commits with clear messages
+- **Code Review**: Write code as if it will be reviewed by peers
+- **Refactoring**: Improve code quality incrementally, not just when adding features
+- **NEW**: Test changes locally before committing
+
+## Technology Preferences
+
+- Use modern, well-supported libraries and frameworks
+- Prefer standard solutions over custom implementations when appropriate
+- Keep dependencies up to date and secure
+- Follow language-specific best practices and idioms
+- **NEW**: Verify compatibility with existing dependencies
+
+## Interaction Guidelines
+
+- When uncertain, ask for clarification rather than making assumptions
+- Provide multiple solution options when appropriate, explaining trade-offs
+- Be transparent about limitations or potential issues
+- Learn from feedback and adjust approach accordingly
+- **NEW**: Summarize understanding before implementing complex changes
